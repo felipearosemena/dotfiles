@@ -9,9 +9,15 @@
 # Node
 # brew install node
 # brew install nvm
+# nvm install 11.10.1
+# nvm alias default 11.10.1
 
 # Yarn
 # brew install yarn
+
+# Global Yarn packages
+# yarn global add eslint
+# yarn global add tslint
 
 # React Native
 # brew install node

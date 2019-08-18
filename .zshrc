@@ -104,6 +104,15 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # Android SDK stuff
-export ANDROID_HOME=Users/luisfelipearosemena/Library/Android/sdk
-export ANDROID_SDK_ROOT=Users/luisfelipearosemena/Library/Android/sdk
-export ANDROID_AVD_HOME=Users/luisfelipearosemena/.android/avd
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Android dev menu alias
+alias adm="adb shell input keyevent 82"
+
+# React Native
+alias rni="react-native run-ios"
+alias rna="react-native run-android"
