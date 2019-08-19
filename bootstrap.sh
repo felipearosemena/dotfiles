@@ -16,8 +16,7 @@
 # brew install yarn
 
 # Global Yarn packages
-# yarn global add eslint
-# yarn global add tslint
+# yarn global add eslint tslint typescript
 
 # React Native
 # brew install node
